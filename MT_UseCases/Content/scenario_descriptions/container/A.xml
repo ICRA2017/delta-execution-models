@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<description>
+    <type>container</type>
+    <limits>
+        <x>-44.0 -30.0</x>
+        <y>-26.0 0.0</y>
+        <z>30.0 42.0</z>
+        <roll>0.0 360.0</roll>
+        <pitch>0.0 360.0</pitch>
+        <yaw>0.0 360.0</yaw>
+    </limits>
+    <models>
+        <model>
+            <name>bookshelf</name>
+            <type>bookshelf</type>
+            <massScale>1.0</massScale>
+            <physics>false</physics>
+            <scale>
+                <x>1.661654</x>
+                <y>1.25</y>
+                <z>0.96875</z>
+            </scale>
+            <pose>
+                <x>2.0</x>
+                <y>2.0</y>
+                <z>15.0</z>
+                <roll>270.0</roll>
+                <pitch>0.0</pitch>
+                <yaw>0.0</yaw>
+            </pose>
+            <comOffset>
+                <x>0.0</x>
+                <y>-15.0</y>
+                <z>0.0</z>
+            </comOffset>
+        </model>
+        <model>
+            <name>manipulated_book</name>
+            <type>book</type>
+            <massScale>0.171</massScale>
+            <physics>true</physics>
+            <scale>
+                <x>0.067725</x>
+                <y>0.069858</y>
+                <z>0.041304</z>
+            </scale>
+            <comOffset>
+                <x>0.0</x>
+                <y>0.0</y>
+                <z>0.95</z>
+            </comOffset>
+        </model>
+        <model>
+            <name>static_book1</name>
+            <type>book</type>
+            <massScale>10.0</massScale>
+            <physics>false</physics>
+            <scale>
+                <x>0.084656</x>
+                <y>0.085106</y>
+                <z>0.06087</z>
+            </scale>
+            <pose>
+                <x>-42.0</x>
+                <y>-12.0</y>
+                <z>10.5</z>
+                <roll>0.0</roll>
+                <pitch>270.0</pitch>
+                <yaw>0.0</yaw>
+            </pose>
+        </model>
+        <model>
+            <name>static_book2</name>
+            <type>book</type>
+            <massScale>10.0</massScale>
+            <physics>false</physics>
+            <scale>
+                <x>0.084656</x>
+                <y>0.085106</y>
+                <z>0.06087</z>
+            </scale>
+            <pose>
+                <x>-30.0</x>
+                <y>-12.0</y>
+                <z>10.5</z>
+                <roll>0.0</roll>
+                <pitch>270.0</pitch>
+                <yaw>0.0</yaw>
+            </pose>
+        </model>
+    </models>
+</description>

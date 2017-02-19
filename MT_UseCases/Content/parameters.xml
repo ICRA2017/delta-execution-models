@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<parameters>
+    <description_file>Absolute_Path_of_MT_UseCases/Content/scenario_descriptions/table/A.xml</description_file>
+    <copies>1</copies>
+    <duration>3</duration>
+    <display_rows>3</display_rows>
+    <row_offset>150</row_offset>
+    <column_offset>200</column_offset>
+    <floor_offset>1000</floor_offset>
+    <copies_per_floor>9</copies_per_floor>
+    <translation_tolerance>5</translation_tolerance>
+    <rotation_tolerance>10</rotation_tolerance>
+    <translation_epsilon>1</translation_epsilon>
+    <log_file>path of a log file</log_file>
+    <simulation_type>optimised</simulation_type>
+    <number_of_trials>100</number_of_trials>
+    <attempts_per_trial>5</attempts_per_trial>
+    <trial_result_file>path of a result file</trial_result_file>
+    <optimisation_data_file>Absolute_Path_of_rule_learner/initial_guess.log</optimisation_data_file>
+    <optimised_data_file>Absolute_Path_of_rule_learner/optimised_guess.log</optimised_data_file>
+    <optimisation_script>Absolute_Path_of_rule_learner\solve_delta.py</optimisation_script>
+    <key_file>Absolute_Path_of_rule_learner/keys.txt</key_file>
+    <optimisation_keys>pringles\ntable\n2</optimisation_keys>
+</parameters>

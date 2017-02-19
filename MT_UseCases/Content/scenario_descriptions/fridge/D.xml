@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<description>
+    <type>fridge</type>
+    <limits>
+        <x>10.0 50.0</x>
+        <y>20.0 28.0</y>
+        <z>35.0 45.0</z>
+        <roll>0.0 0.0</roll>
+        <pitch>0.0 0.0</pitch>
+        <yaw>0.0 0.0</yaw>
+    </limits>
+    <models>
+        <model>
+            <name>fridge</name>
+            <type>fridge</type>
+            <massScale>1.0</massScale>
+            <physics>false</physics>
+            <scale>
+                <x>0.07</x>
+                <y>0.1</y>
+                <z>0.1</z>
+            </scale>
+            <massScale>3</massScale>
+            <pose>
+                <x>0.0</x>
+                <y>0.0</y>
+                <z>0.0</z>
+                <roll>0.0</roll>
+                <pitch>0.0</pitch>
+                <yaw>70.0</yaw>
+            </pose>
+        </model>
+        <model>
+            <name>manipulated_bottle</name>
+            <type>bottle</type>
+            <massScale>0.417</massScale>
+            <physics>true</physics>
+            <scale>
+                <x>0.309470</x>
+                <y>0.309470</y>
+                <z>0.320718</z>
+            </scale>
+        </model>
+        <model>
+            <name>static_bottle1</name>
+            <type>bottle</type>
+            <massScale>0.6</massScale>
+            <physics>true</physics>
+            <scale>
+                <x>0.309470</x>
+                <y>0.309470</y>
+                <z>0.447062</z>
+            </scale>
+            <pose>
+                <x>15.0</x>
+                <y>18.0</y>
+                <z>38.5</z>
+                <roll>55.0</roll>
+                <pitch>0.0</pitch>
+                <yaw>0.0</yaw>
+            </pose>
+        </model>
+        <model>
+            <name>static_bottle2</name>
+            <type>bottle</type>
+            <massScale>0.417</massScale>
+            <physics>true</physics>
+            <scale>
+                <x>0.309470</x>
+                <y>0.309470</y>
+                <z>0.447062</z>
+            </scale>
+            <pose>
+                <x>48.0</x>
+                <y>20.0</y>
+                <z>38.0</z>
+                <roll>0.0</roll>
+                <pitch>90.0</pitch>
+                <yaw>0.0</yaw>
+            </pose>
+        </model>
+    </models>
+</description>

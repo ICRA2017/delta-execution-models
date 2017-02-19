@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<description>
+    <type>cube_tower</type>
+    <limits>
+        <x>37.0 43.0</x>
+        <y>8.0 12.0</y>
+        <z>15.0 16.0</z>
+        <roll>0.0 0.0</roll>
+        <pitch>0.0 0.0</pitch>
+        <yaw>0.0 360.0</yaw>
+    </limits>
+    <models>
+        <model>
+            <name>bookshelf</name>
+            <type>bookshelf</type>
+            <massScale>1.0</massScale>
+            <physics>false</physics>
+            <scale>
+                <x>0.75188</x>
+                <y>2.083333</y>
+                <z>2.334375</z>
+            </scale>
+            <pose>
+                <x>40.0</x>
+                <y>-10.0</y>
+                <z>0.0</z>
+                <roll>0.0</roll>
+                <pitch>0.0</pitch>
+                <yaw>0.0</yaw>
+            </pose>
+        </model>
+        <model>
+            <name>manipulated_cube</name>
+            <type>cube</type>
+            <massScale>1.27</massScale>
+            <physics>true</physics>
+            <scale>
+                <x>0.263158</x>
+                <y>0.156250</y>
+                <z>0.166667</z>
+            </scale>
+        </model>
+        <model>
+            <name>static_cube</name>
+            <type>cube</type>
+            <massScale>10</massScale>
+            <physics>true</physics>
+            <scale>
+                <x>0.394737</x>
+                <y>0.156250</y>
+                <z>0.083333</z>
+            </scale>
+            <pose>
+                <x>40.0</x>
+                <y>10.0</y>
+                <z>73.5</z>
+                <roll>0.0</roll>
+                <pitch>0.0</pitch>
+                <yaw>0.0</yaw>
+            </pose>
+        </model>
+    </models>
+</description>
