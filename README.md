@@ -8,11 +8,13 @@ MT_UseCases
 ===========
 
 MT_UseCases is a Visual Studio solution of our Unreal Engine simulation. The simulation can run in three different modes:
+
 1. *Random data collection mode*: Used when collecting data for learning a symbolic delta model and a geometric data mapping (the one described in [1]).
 2. *GSM data collection mode*: Used for collecting GSM data.
 3. *Evaluation mode*: Only used to evaluate the success of the learned models with respect to finding feasible robot-independent execution poses.
 
 The parameters that are necessary for initialising the simulation can all be set in *MT_UseCases/Content/parameters.xml*:
+
 * *simulation_type* (string): The mode in which the simulation should run (the accepted values are *random*, *rotation_optimised*, and *optimised*, corresponding to the three modes described above).
 * *description_file* (string): Description file of the scenario that should be simulated (the description files are found under *MT_UseCases/Content/scenario_descriptions/<UseCase>/<Scenario>*).
 * *duration* (float): The duration of a single simulation trial (in seconds).
@@ -45,6 +47,7 @@ rule_learner
 ============
 
 rule_learner is a set of Python packages and scripts that are used for learning action execution models and optimising manipulated object poses using the learned models. rule_learner depends on the following packages:
+
 * numpy
 * scipy
 * scikit-learn
@@ -52,6 +55,7 @@ rule_learner is a set of Python packages and scripts that are used for learning 
 * shapely
 
 For learning an action execution model:
+
 1. (if running the software for the first time) create a directory called *data* inside *rule_learner* and a directory called *learned_mappings* inside the newly created *data* directory
 2. copy the log file collected by running the Unreal Engine simulation in the *random* mode to the *rule_learner/data* directory
 3. if additional GSM data was collected by running the simulation in the *rotation_optimised* mode, copy the log file to the *rule_learner/data* directory as well
