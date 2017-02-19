@@ -64,6 +64,7 @@ For learning an action execution model:
 6. write the object and instance keys and the GSM resolution in *rule_learner/keys.txt* (each one on a separate line)
 7. run *problem_learner.py* (the geometric mapping learning step is usually slow, so this script could take several minutes to finish)
 8. run *gsm_learner.py*
+
 A couchdb server should be running before using the software.
 
 The scripts *rule_learner/solve_delta.py* and *rule_learner/solve_delta_without_gsm.py* are meant to be called from external software (such as the Unreal Engine simulation), such that they use the files *rule_learner/keys.log*, *rule_learner/initial_guess.log*, *rule_learner/optimised_guess.log*, and *rule_learner/bad_guesses.log* for interacting with the external software. The *path* variables in the two scripts should be set to the absolute path of *rule_learner* before they are called.
