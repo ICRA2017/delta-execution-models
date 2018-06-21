@@ -1,5 +1,7 @@
 # delta-execution-models
 
+[![Docker Build Status](https://img.shields.io/docker/build/icra2017/delta-execution-models.svg)](https://hub.docker.com/r/icra2017/delta-execution-models/)
+
 This repository contains the accompanying code for our ICRA 2017 paper
 
 A. Mitrevski, A. Kuestenmacher, S. Thoduka, and P. G. Pl&ouml;ger, "Improving the Reliability of Service Robots in the Presence of External Faults by Learning Action Execution Models," in *Robotics and Automation (ICRA), IEEE Int. Conf.*, 2017.
@@ -68,3 +70,7 @@ For learning an action execution model:
 A couchdb server should be running before using the software.
 
 The scripts *rule_learner/solve_delta.py* and *rule_learner/solve_delta_without_gsm.py* are meant to be called from external software (such as the Unreal Engine simulation), such that they use the files *rule_learner/keys.log*, *rule_learner/initial_guess.log*, *rule_learner/optimised_guess.log*, and *rule_learner/bad_guesses.log* for interacting with the external software. The *path* variables in the two scripts should be set to the absolute path of *rule_learner* before they are called.
+
+## Run in Docker
+
+Not available.
